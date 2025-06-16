@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+    background-image: url(imagens/fundoserra.jpeg);
+    background-attachment: fixed;
+}
+
+.top-bar{
+    width: 100%;   
+    background-color: rgba(0, 255, 55, 0.669);
+    padding: 6px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo img{
+    width: 100px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 10px;
+    align-items: baseline;
+}
+
+.search-bar{
+    flex-grow: 1;
+    margin: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input{
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    background-color: rgb(255, 255, 255, 0.6);
+    color: rgb(0, 0, 0);
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.login-area{
+    display: flex;
+    align-items: center;
+}
+
+.login-button{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.register-button{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.second-bar{
+  background-color: rgba(12, 137, 33, 0.653);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+.separator{
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+}
+
+.second-bar a{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.second-bar a:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.welcome{
+    margin-top: 150px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trilhaseparator{
+    margin-top: 150px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 255, 0);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 5%;
+    text-align: end;
+}
+
+.parquesseparator{
+    margin-top: 150px;
+    width: 100%;
+    background-color: rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    text-align: start;
+}
+
+.cachoeirasseparator{
+    margin-top: 150px;
+    width: 100%;
+    background-color: rgb(0, 255, 0);
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5%;
+    text-align: start;
+}
+
+.footer-content{
+    background-color: rgba(255, 255, 255);
+    color: rgb(0, 255, 0);
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.social-media a{
+    text-decoration: none;
+    color: rgb(0, 255, 0);
+    margin: 0 10px;
+}
+
